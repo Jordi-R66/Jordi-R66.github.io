@@ -5,8 +5,18 @@ body {
 	color: #d2d2d2;
 }
 
-h {
+h1 {
 	color: #fff;
+}
+
+#header_div {
+	margin: auto;
+	padding: 1%;
+}
+
+#footer_div {
+	margin: auto;
+	padding: 1%;
 }
 
 h2 {
@@ -18,7 +28,9 @@ h2 {
 #main_box {
 	margin: auto;
 	text-align: justify;
-	width: 85%;
+	width: 90%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 }
 
 a {

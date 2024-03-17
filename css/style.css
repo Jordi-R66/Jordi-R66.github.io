@@ -9,6 +9,11 @@ body {
 	margin-top: 10;
 }
 
+#footer_div {
+	text-align: center;
+	margin-bottom: 10;
+}
+
 .navmenu {
 	display: flex;
 	justify-content: center;
